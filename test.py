@@ -1,4 +1,8 @@
-grede = 75
+grade = 75
 
-if grede > 50:
-    ("Passed")
+if grade > 50:
+    print("Passed")
+elif grade < 50:
+    print("Faild")
+else: 
+    print("Invalid")
